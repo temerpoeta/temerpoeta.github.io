@@ -24,7 +24,7 @@ app.main = (function(){
 ['Finalmente', 'Incondicionalmente', 'Gradativamente', 'Ultimamente', 'Afe-mente', 'Dualisticamente', 'Eternamente', 'Temente', 'Esporadicamente', 'Infelizmente', 'Inconstitucionalissimamente', 'Redondamente', 'Enfadonhamente', 'Bovinamente'],
 ['Restam cinzas', 'Gastam as pingas', 'Com ojerizas', 'Restam lindas', 'E as ranzinzas', 'Restam balizas', 'Restam dindas', 'Difundidas', 'Sobram milhas', 'Somos ranzinzas', 'Bebi em Minas', 'Bazingas', 'Somos Maisas', 'Restam lendas'],
 ['Que espalho na cama', 'Que jogo na lama', 'Que boto em cana', 'Que vejo a trama', 'Dividindo a cama', 'Molhando a cama', 'Que solta a escama', 'Embaixo da cama', 'Rolando na cama', 'Pulando na cama', 'Deserto atacama', 'Chama o Ibama', 'Montado na lhama', 'Que minto minha fama'],
-['Para dormir', 'Para redimir', 'Para eximir', 'Para possuir', 'Para mimir', 'Para cuspir', 'Para coibir', 'Para exprimir', 'Para reprimir', 'Para trair', 'Para Mi-Mir', 'para resumir', 'Para oprimir', 'Para o Walmir'],
+['Para dormir', 'Para redimir', 'Para eximir', 'Para possuir', 'Para mimir', 'Para cuspir', 'Para coibir', 'Para exprimir', 'Para reprimir', 'Para trair', 'Para Mi-Mir', 'Para resumir', 'Para oprimir', 'Para o Walmir'],
 	];
 
 	var gerado = [];
