@@ -1,0 +1,22 @@
+/* your style begins here */
+body{
+	text-align: center;
+	font-family: Helvetica, Arial;
+	background-image: url('../images/michel_temer_by_abr.jpg');
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	font-size: 120px;
+	margin: 20px 0 0 0;
+}
+h2{
+	margin: 20px 0 0 0;
+}
+p{
+	margin: 10px;
+}
+.source{
+	margin: 20px 0;
+	font-size: 11px;
+}
