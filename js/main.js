@@ -16,7 +16,7 @@ app.main = (function(){
 ['Minha mente', 'Meu coração', 'Minha vida', 'Minha cabeça', 'Minha gente', 'Minha demente', 'Mina desmente', 'Minha ardente', 'Minha serpente', 'Minha servente', 'Minha tenente', 'No batente', 'Minha lente', 'Minha agente'],
 ['Minha alma', 'Meu espírito', 'Minha teimosia', 'Minha calma', 'Minha palma', 'Minha salma', 'Viva alma', 'Minha desalma', 'Me acalma', 'Corpo e alma', 'Minha palma', 'Minha fauna', 'Brian de Palma', 'Viva alma'],
 ['Tudo meu', 'Tu comeu', 'Tudo deus', 'Grifo meu', 'Pig meu', 'Orra meu', 'Temeu', 'Tremeu', 'O pau comeu', 'Bartolomeu', 'Tu é meu', 'Entendeu', 'Odeio museu', 'Cedo leu'],
-['Em brasas', 'Caralho de asas', 'Tem asas', 'Em casas', 'Em massas', 'Nas brasas', 'Casca grossas', 'Asquerosas', 'Voluptuosas', 'Desastrosas', 'Sem passas', 'De argamassa', 'Em casas', 'Em tuas casas'],
+['Em brasas', 'Caralho de asas', 'Tem asas', 'Em casas', 'Em massas', 'Nas brasas', 'Cascas grossas', 'Asquerosas', 'Voluptuosas', 'Desastrosas', 'Sem passas', 'De argamassa', 'Em casas', 'Em tuas casas'],
 ['Meu corpo', 'Teu corpo ', 'Diabo no corpo', 'Meu olho', 'Meu porco', 'Meu torso', 'Meu ovo', 'Meu caroço', 'Meu tremoço', 'Meu Porco Rosso', 'Meu caroço', 'Sou bom moço', 'Fedido e insosso', 'Meu fosso'],
 ['Incendiado', 'Pegando fogo', 'Fervendo', 'Chamuscado', 'Lascado', 'Ensebado', 'Arrasado', 'Desgraçado', 'Maquiado', 'Emcabaçado', 'Chatiado', 'Enviesado', 'Emparelhado', 'Enfiado'],
 ['Consumido', 'Feito', 'Devorado', 'Misturado', 'Engolido', 'Dividido', 'Resumido', 'Enxerido', 'Fedido', 'Tolhido', 'Fudido', 'Medido', 'Sofrido', 'Ressentido'],
