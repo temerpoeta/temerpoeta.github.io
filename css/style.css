@@ -23,7 +23,7 @@ body{
 h4{
 	font-weight: normal;
 }
-.fb-share-button{
+#facebook{
 	position: absolute;
 	top: 20px;
 	right: 20px;
