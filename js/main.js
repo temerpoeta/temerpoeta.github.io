@@ -4,7 +4,7 @@ var app = app || {};
 
 app.main = (function(){
 
-	var poema = [
+	var tabelaPoema = [
 		['De vermelho', 'de preto', 'de verde', 'de amarelo', 'de rosa', 'de turquesa', 'de azul', 'de roxo', 'de lilás', 'de azul marinho', 'de cor de burro quando foge'],
 		['Flamejante', 'escaldante', 'militante', 'fumegante', 'chamejante', 'colorante', 'exuberante', 'deslumbrante', 'estafante', 'enfartante', ''],
 		['Labaredas de fogo.', 'Calabresas de molho', 'Milanesas ao forno', 'panelas de molho', 'Carambolas em jogo', 'Sabonete Sococo', '', '', '', '', ''],
@@ -27,17 +27,24 @@ app.main = (function(){
 		['Para dormir. ', 'para redimir', 'para eximir', 'para possuir', 'para mimir', '', '', '', '', '', '']
 	];
 
-	function poesia(){
-		console.log('Called poesia');
-		for(var i = 0; i < poema.length; i++){
-			var option = Math.round(Math.random()*poema[0].length);
-			$('body').append('<p>'+ poema[i][option] +'</p>');
+	function gerarPoema(){
+		console.log('Called gerarPoema');
+		for(var i = 0; i < tabelaPoema.length; i++){
+			var option = Math.round(Math.random()*tabelaPoema[0].length);
+			$('#poesia').append('<span>'+ tabelaPoema[i][option] +' / </span>');
 		}
+	}
+
+	function attachEvents(){
+		console.log('Called attachEvents')
+		$('#gerar-bt').off().on('click', function(){
+			gerarPoema();
+		});
 	}
 
 	var init = function(){
 		console.log('Initializing app.');
-		poesia();
+		attachEvents();
 	};
 
 	return {
