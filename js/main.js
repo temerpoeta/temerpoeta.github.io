@@ -27,12 +27,25 @@ app.main = (function(){
 		['Para dormir. ', 'para redimir', 'para eximir', 'para possuir', 'para mimir', '', '', '', '', '', '']
 	];
 
+	var gerado = [];
+
+	function poemaOriginal(){
+		for(var i = 0; i < tabelaPoema.length; i++){
+			$('#poesia').append('<p>'+ tabelaPoema[i][0] +'</p>');
+		}		
+	}
+
 	function gerarPoema(){
 		console.log('Called gerarPoema');
+		$('#poesia').empty();		
 		for(var i = 0; i < tabelaPoema.length; i++){
-			var option = Math.round(Math.random()*tabelaPoema[0].length);
-			$('#poesia').append('<span>'+ tabelaPoema[i][option] +' / </span>');
+			var opcao = Math.round(Math.random()*tabelaPoema[0].length);
+			gerado.push(opcao);
+			$('#poesia').append('<p>'+ tabelaPoema[i][opcao] +'</p>');
 		}
+		console.log(gerado);
+		var geradoString = gerado.join('-');
+		console.log(geradoString);
 	}
 
 	function attachEvents(){
@@ -44,6 +57,7 @@ app.main = (function(){
 
 	var init = function(){
 		console.log('Initializing app.');
+		// poemaOriginal();
 		attachEvents();
 	};
 

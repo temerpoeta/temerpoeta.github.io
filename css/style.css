@@ -8,18 +8,47 @@ html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	padding: 0;
-	border: 0;	
+	padding: 20px;
+	border: 0;
 }
 
 body{
 	text-align: center;
 	font-family: Helvetica, Arial;
-	background-image: url('../images/michel_temer_by_abr.jpg');
+	background-image: url('../img/temer.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+h4{
+	font-weight: normal;
+}
+.fb-share-button{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.Aligner{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	display: inline-block;
+}
+#poesia{
+	font-style: italic;
+	line-height: 0.5em;
+}
+/*.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Aligner-item {
+  flex: 1;
+}*/
+
 /*h1{
 	font-size: 120px;
 	margin: 20px 0 0 0;
