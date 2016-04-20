@@ -22,7 +22,7 @@ body{
 	background-repeat: no-repeat;
 	/*color: #FFF;*/
 }
-h4{
+h5{
 	font-weight: normal;
 }
 #botao-fb{
@@ -49,8 +49,8 @@ h1{
 #poesia{
 	font-weight: bold;
 	font-style: italic;
-	font-size: 1em;
-	line-height: 0.7em;
+	/*font-size: 1em;*/
+	line-height: 0.6em;
 	margin-top: 20px;
 	padding: 10px;
 	/*text-align: left;*/
